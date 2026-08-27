@@ -53,3 +53,9 @@ A compact printed circuit board (PCB) design created in KiCad. This repository c
 ├── kicad 1.csv             # Bill of Materials (BOM)
 └── kicad 1.zip             # Manufacturing Package (Gerbers & Drill Files)
 
+## Project Visuals
+
+| 2D PCB Layout | 3D Board Render |
+| :---: | :---: |
+| ![2D PCB Layout](./images/2D%20PCB%20Layout.png) | ![3D Board Render](./images/3D%20Board%20Render.png) |
+
