@@ -52,10 +52,12 @@ A compact printed circuit board (PCB) design created in KiCad. This repository c
 ##  Repository Structure
 
 ```text
-├── .history/               # Local backup and revision history
 ├── Mini Inverter/          # Project sub-folder / CAD assets
-├── kicad 1.kicad_pro       # Main KiCad 10 Project File
-├── kicad 1.kicad_sch       # Schematic Source File
-├── kicad 1.kicad_pcb       # PCB Layout File
+├── images/                 # Screenshots (2D layout, 3D render)
+├── .gitignore              # Files Git should ignore
+├── README.md               # Project documentation
+├── kicad 1.kicad_pro       # Main KiCad project file
+├── kicad 1.kicad_sch       # Schematic source file
+├── kicad 1.kicad_pcb       # PCB layout file
 ├── kicad 1.csv             # Bill of Materials (BOM)
-└── kicad 1.zip             # Manufacturing Package (Gerbers & Drill Files)
+└── kicad 1.zip             # Manufacturing package (Gerbers & drill files)
