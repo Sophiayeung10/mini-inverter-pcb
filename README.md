@@ -31,7 +31,7 @@ A compact printed circuit board (PCB) design created in KiCad. This repository c
 
 ### 3. Routing & Power Planes
 - **Signal & Power Routing**: Routed top (`F.Cu`) and bottom (`B.Cu`) copper layers using single-track routing and layer-switching via placements (`V`).
-- **Ground Fills (Pour Zones)**: Created top and bottom ground planes (`GND` net) using copper zones (`B` key rebuild) to optimize return paths and thermal management.
+- **Ground Fills (Pour Zones)**: Created top and bottom ground planes (`GND` net) using copper zones (`B` key rebuild) to optimize return paths instead of drawing thin wires for every return pathand thermal management. Current flows back easily, and the board stays cooler.
 - **Silkscreen & Labeling**: Added text annotations and component references on silkscreen layers (`F.Silkscreen` / `B.Silkscreen`).
 
 ---
