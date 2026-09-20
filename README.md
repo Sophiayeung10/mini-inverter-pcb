@@ -40,7 +40,6 @@ A compact printed circuit board (PCB) design created in KiCad. This repository c
 - **Archive Package**: Generated a consolidated `.zip` production package containing all Gerber and drill data, ready for PCB manufacturing submission.
 
 ---
----
 
 ## 5. Challenges in My Mini Inverter PCB Project
 
