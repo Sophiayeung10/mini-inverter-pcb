@@ -40,6 +40,25 @@ A compact printed circuit board (PCB) design created in KiCad. This repository c
 - **Archive Package**: Generated a consolidated `.zip` production package containing all Gerber and drill data, ready for PCB manufacturing submission.
 
 ---
+---
+
+## 5. Challenges in My Mini Inverter PCB Project
+
+### 1. Net Name Mismatch
+
+While wiring the board, I noticed that one of the ports I wanted to connect turned grey and wouldn't accept a connection. At first I thought KiCad was broken, but the real cause was simple: the two ends didn't share the same net name.
+
+KiCad doesn't connect things by how they look on screen. It connects them by **name**. If one side is called `VIN` and the other is `Vin` or `VIN1`, KiCad treats them as two unrelated connections, and the mismatched port is greyed out.
+
+**Solution:** I standardized the label names, ran the Electrical Rules Check (ERC), and updated the PCB from the schematic (`F8`).
+
+### 2. Aligning Custom 3D Models
+
+Downloaded STEP files (such as the GrabCAD terminal blocks) rarely line up on import. Fixing the position, rotation, and scale by hand takes trial and error to match my PCB design.
+
+**Solution:** I adjusted the offset and rotation values in the footprint's 3D model settings and checked the result in the 3D Viewer until it matched the PCB.
+
+---
 
 ##  Project Visuals
 
